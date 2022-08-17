@@ -1,10 +1,13 @@
-function anagram($string_1, $string_2)
-    {
-        if (count_chars($string_1) == count_chars($string_2))
-            return "True";
-        else 
-            return "False";       
-    }
-  
-    console.log(anagram('roma', 'mora'));
-    console.log(anagram('poco', 'loco'));
+var palabra1 = "mora"
+var palabra2 = "roma"
+
+function Anagrama(palabra1, palabra2){
+    palabra1 = palabra1.toLowerCase().split("").sort().join("")
+    palabra2 = palabra2.toLowerCase().split("").sort().join("")
+    if (palabra1 == palabra2)
+        console.log("True")
+    else
+        console.log("False")
+}
+
+Anagrama(palabra1, palabra2)
