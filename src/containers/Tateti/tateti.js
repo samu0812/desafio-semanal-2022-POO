@@ -16,7 +16,7 @@ reiniciar.addEventListener("click", _ => location.reload());//carga de nuevo la 
 //crea esa interacion entre el usuario y el boton cuando se pulsa el boton, lo cual produce un evento 
 function jugar(event){
     var btnPulsado = event.target;//elemento pulsado
-    if (partidaAcabada==false){//verifica que la partida no haya acabado
+    if (partidaAcabada==false && btnPulsado.innerHTML == ""){//verifica que la partida no haya acabado
         turno++;
         if (turno % 2 != 0 && btnPulsado.innerHTML == "" ){//verifica que sea impar y que el boton este null
             btnPulsado.innerHTML= "X";//agrega el simbolo X al boton
