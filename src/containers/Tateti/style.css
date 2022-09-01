@@ -1,0 +1,63 @@
+button{
+    width: 150px;
+    height:150px;
+    max-width: 33.33%;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 5rem;
+}
+.tablero{
+    font-family: 'Press Start 2P', cursive;
+    display:flex;
+    width: 500px;
+    max-width:100%;
+    margin:auto;
+    flex-wrap: wrap;
+    font-family: 'Press Start 2P', cursive;
+    
+}
+body{ 
+    background-color:rgb(11, 3, 27)
+
+}
+header{color:rgb(178, 52, 236); 
+   font-size:20px;
+    font-family: 'Press Start 2P', cursive;
+   line-height:30px;
+   letter-spacing:5px;
+   text-align:center;
+   background-color:rgb(48, 1, 255)
+}
+#txtGanador{
+    visibility:hidden;
+}
+.img1{
+    float:left;
+    position:relative;
+    height:300px;
+    width:200px;
+    max-width: 300px;
+    max-height: 300px;
+    align-items:center
+    justify-content space-around;
+    left: 100px;
+    top: 90px;
+}
+.img2{
+    float:right;
+    position:relative;
+    height:300px;
+    width:200px;
+    max-width: 300px;
+    max-height: 300px;
+    align-items:center
+    justify-content space-around;
+    right: 100px;
+    top: 90px;
+}
+#reset{
+    width:200px;
+    height:50px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1rem;
+}
+
