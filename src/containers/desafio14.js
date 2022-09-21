@@ -4,8 +4,7 @@
 //tengo que separar los digitos
 //tengo que elevarlo por la cantidad de digitos que tiene el numero
 //tengo que sumarlos
-var lodash = require('lodash');
-class amstrong{
+class armstrong{
     constructor(numero){
         this.numero = numero;
     }
@@ -38,10 +37,10 @@ class amstrong{
     }
 
 }
-a = new amstrong(153)
-b = new amstrong(152)
-c = new amstrong(371)
-d = new amstrong(13412)
+a = new armstrong(153)
+b = new armstrong(152)
+c = new armstrong(371)
+d = new armstrong(13412)
 console.log(a.verificar())
 console.log(b.verificar())
 console.log(c.verificar())
